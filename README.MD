@@ -44,3 +44,7 @@ The attribute to fetch about `share` from Google Finance
 > * This is not the full code of the Scraper
 > * This is not Offcial Code as Well or any kind of licensed by Google
 > * No proper debugging & testing
+
+> [!IMPORTANT]
+> Please don't sue me if any kind issue of licencing arise
+> just mail me I will make it Private 😇
