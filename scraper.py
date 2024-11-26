@@ -29,7 +29,7 @@ class GoogleFinance:
         except:
             return 0.0
 
-    def get_details(self)->dict:
+    def __get_details(self)->dict:
         results = self.__scrapper_all("P6K39c")
         day_range=results[1].get_text()
         year_range=results[2].get_text()
@@ -42,6 +42,18 @@ class GoogleFinance:
             'high52':self.__filter(year_range.split('-')[1]),
             'pe':float(results[5].get_text())
             }
-        return self.details    
+        return self.details
+
+    def get_details(self,key='all'):
+        self.__get_details()
+        if key=='all':
+            return self.details
+        elif key in self.details.keys:
+            return self.details[key]
+        else:
+            return None    
+
+
+
 
 
