@@ -46,5 +46,5 @@ The attribute to fetch about `share` from Google Finance
 > * No proper debugging & testing
 
 > [!IMPORTANT]
-> Please don't sue me if any kind issue of licencing arise
-> just mail me I will make it Private 😇
+> Please don't sue me for any kind licencing issue,
+> just mail me I will make it Private 😇 ASAP!
