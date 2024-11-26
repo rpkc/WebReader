@@ -39,6 +39,8 @@ The attribute to fetch about `share` from Google Finance
     - ${\color{orange}low52 : }$ `52 week's low price` of the share
     - ${\color{orange}high52 : }$ `52 week's high price` of the share
     - ${\color{orange}pe : }$ `PE ratio` of the share
-> [!WARNING]
+
+> [!CAUTION]
 > * This is not the full code of the Scraper
 > * This is not Offcial Code as Well
+> * No proper debugging & testing
