@@ -48,7 +48,7 @@ class GoogleFinance:
         self.__get_details()
         if key=='all':
             return self.details
-        elif key in self.details.keys:
+        elif key in self.details.keys():
             return self.details[key]
         else:
             return None    
