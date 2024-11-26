@@ -1,10 +1,11 @@
 # ⛏️Scrapper for Google Finance 📈
 Scraping out information about stocks in Google Finance in python
 
-### Libraries Used 🗃️
-make sure these are installed before use the Scrapper
-* [requests](https://pypi.org/project/requests/)
-* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+> [!IMPORTANT]
+> ### Libraries Used 🗃️
+> make sure these are installed before use the Scrapper
+> * [requests](https://pypi.org/project/requests/)
+> * [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 
 ### Sample Usage 💻 
