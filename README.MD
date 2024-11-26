@@ -33,7 +33,7 @@ The share symbol for the security to consider. It’s mandatory to use both the 
 * ${\color{yellow}attribute: }$
 The attribute to fetch about `share` from Google Finance
     - ${\color{orange}name : }$ `name` of the share
-    - ${\color{orange}price : }$ `current` price of the share
+    - ${\color{orange}price : }$ `current price` of the share
     - ${\color{orange}low : }$ `today's low price` of the share
     - ${\color{orange}high : }$ `today's high price` of the share
     - ${\color{orange}low52 : }$ `52 week's low price` of the share
