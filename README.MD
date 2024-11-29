@@ -1,4 +1,4 @@
-# ⛏️WebRead : Scrapper for Google Finance 📈
+# ⛏️WebReader : Scrapper for Google Finance 📈
 Scraping out information about stocks in Google Finance in python
 
 > [!IMPORTANT]
