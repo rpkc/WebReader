@@ -10,8 +10,8 @@ Scraping out information about stocks in Google Finance in python
 
 ### Sample Usage 💻 
 ```python
-import scraper
-g=scraper.GoogleFinance("RELIANCE:NSE")
+import WebReader
+g=WebReader.GoogleFinance("RELIANCE:NSE")
 print(g.get_details())
 ```
 Output
