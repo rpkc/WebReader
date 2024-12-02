@@ -23,8 +23,8 @@ Output
 ## Syntax
 
 ```python
-import scraper
-g=scraper.GoogleFinance(share)
+import WebReader
+g=WebReader.GoogleFinance(share)
 g.get_details(attribute)
 ```
 * ${\color{yellow}share: }$
