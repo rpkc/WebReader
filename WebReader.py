@@ -8,7 +8,7 @@ class GoogleFinance:
         url:str="https://www.google.com/finance/quote/"+__code
         result=requests.get(url)
         self.parsed_page=BeautifulSoup(result.text, 'html.parser')
-        self.details=dict()
+        self.details=dict(name='',price=0.0,low=0.0,high=0.0,low52=0.0,high52=0.0,pe=0.0)
 
     def __filter(self,value:str)->str:
         value=value.replace('₹','')
@@ -33,15 +33,13 @@ class GoogleFinance:
         results = self.__scrapper_all("P6K39c")
         day_range=results[1].get_text()
         year_range=results[2].get_text()
-        self.details={
-            'name':self.__scrapper('zzDege'),
-            'price':self.price(),
-            'low':self.__filter(day_range.split('-')[0]),
-            'high':self.__filter(day_range.split('-')[1]),
-            'low52':self.__filter(year_range.split('-')[0]),
-            'high52':self.__filter(year_range.split('-')[1]),
-            'pe':float(results[5].get_text())
-            }
+        self.details['name']:self.__scrapper('zzDege')
+        self.details['price']:self.price()
+        self.details['low']:self.__filter(day_range.split('-')[0])
+        self.details['high']:self.__filter(day_range.split('-')[1])
+        self.details['low52']:self.__filter(year_range.split('-')[0])
+        self.details['high52']:self.__filter(year_range.split('-')[1])
+        self.details['pe']:float(results[5].get_text())            
         return self.details
 
     def get_details(self,key='all'):
