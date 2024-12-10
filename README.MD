@@ -27,11 +27,11 @@ import WebReader
 g=WebReader.GoogleFinance(share)
 g.get_details(attribute)
 ```
-* ${\color{yellow}share: }$
+* ${\color{red}share: }$
 The share symbol for the security to consider. It’s mandatory to use both the exchange symbol and share symbol for accurate results and to avoid discrepancies
     - **Example :**
     `RELIANCE:NSE` where `RELIANCE` is *Share Symbol* and `NSE` is *Exchange Symbol*
-* ${\color{yellow}attribute: }$
+* ${\color{red}attribute: }$
 The attribute to fetch about `share` from Google Finance. It shows all details by default 
     - ${\color{orange}name : }$ `name` of the share
     - ${\color{orange}price : }$ `current price` of the share
@@ -42,6 +42,6 @@ The attribute to fetch about `share` from Google Finance. It shows all details b
     - ${\color{orange}pe : }$ `PE ratio` of the share
 
 > [!CAUTION]
-> * This is not the full code of the Scraper
+> * This is not the full code of the WebReader
 > * This is not Offcial Code as Well or any kind of licensed by Google
 > * No proper debugging & testing
