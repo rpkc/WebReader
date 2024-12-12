@@ -2,13 +2,13 @@
 Scraping out information about stocks in Google Finance in python
 
 > [!IMPORTANT]
-> ### Libraries Used 🗃️
+> ### 🗃️ Libraries Used 
 > make sure these are installed before use the Scrapper
 > * [requests](https://pypi.org/project/requests/)
 > * [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 
-### Sample Usage 💻 
+### 💻 Sample Usage  
 ```python
 import WebReader
 g=WebReader.GoogleFinance("RELIANCE:NSE")
@@ -20,7 +20,7 @@ Output
 ```
 <br/>
 
-## Syntax ✏️
+## ✏️ Syntax 
 
 ```python
 import WebReader
