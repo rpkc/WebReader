@@ -20,7 +20,7 @@ Output
 ```
 <br/>
 
-## Syntax
+## Syntax ✏️
 
 ```python
 import WebReader
